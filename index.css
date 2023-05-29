@@ -1,0 +1,489 @@
+@import url("https://fonts.googleapis.com/css2?family= IBM+Plex+Sans:wght@300 & display =swap");
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  color: #1e1e2a;
+  background-image: url(./IMG/Landscapeillustration10_generated.jpg);
+}
+
+h1 {
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  position: absolute;
+  text-align: center;
+  padding-top: 200px;
+  left: 550px;
+  transition: 1s ease-in-out;
+  color: #ffffff;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  position: absolute;
+  text-align: center;
+  padding-top: 300px;
+  left: 523px;
+  transition: 2s ease-in-out;
+}
+
+h3 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  position: absolute;
+  text-align: center;
+  padding-top: 350px;
+  left: 700px;
+  transition: 1s ease-in-out;
+}
+
+.social-media {
+  margin-top: 1rem;
+  display: flex;
+  position: absolute;
+  left: 588px;
+  padding-top: 400px;
+}
+
+.social-media a {
+  text-decoration: none;
+  color: #1e1e2a;
+  padding: 1rem 4rem;
+  border: 1px solid #1e1e2a;
+  min-width: 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+}
+
+a:hover {
+  background-color: #ffffff;
+  opacity: 0.7;
+}
+
+#menu-h {
+  list-style-type: none;
+  padding: 10px;
+  background-color: #000;
+}
+
+#menu-h li {
+  display: inline;
+}
+
+#menu-h li a {
+  color: #ffffff;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+#menu-h li a:hover {
+  background-color: rgba(255, 255, 255, 0.748);
+  padding: 20px;
+}
+
+li i {
+  color: #ffffff;
+  font-size: 25px;
+}
+
+#Horas {
+  position: absolute;
+  top: 42px;
+  left: 1425px;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+#Pc {
+  position: absolute;
+  top: 30px;
+  left: 1365px;
+  color: #ffffff;
+  font-size: 40px;
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 767px){
+  body {
+    margin: auto;
+    width: 90%;
+    background-image: url(./IMG/Landscapeillustration10_generated.jpg);
+  }
+
+  h1 {
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    text-align: center;
+    padding-top: 115px;
+    left: 55px;
+    transition: 1s ease-in-out;
+    color: #ffffff;
+  }
+  
+  h2 {
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 4,5px;
+    position: absolute;
+    text-align: center;
+    padding-top: 150px;
+    left: 5px;
+    transition: 2s ease-in-out;
+  }
+  
+  h3 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    text-align: center;
+    padding-top: 190px;
+    left: 110px;
+    transition: 1s ease-in-out;
+  }
+  .social-media {
+    margin-top: 1px;
+    display: flex;
+    position: absolute;
+    left: 30px;
+    padding-top: 230px;
+  }
+  
+  .social-media a {
+    text-decoration: none;
+    color: #1e1e2a;
+    padding: 0.5rem 2rem;
+    border: 1px solid #1e1e2a;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+  }
+  
+  a:hover {
+    background-color: #ffffff;
+    opacity: 0.7;
+  }
+  
+  #menu-h {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #000;
+  }
+  
+  #menu-h li {
+    display: inline;
+  }
+  
+  #menu-h li a {
+    color: #ffffff;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.3s;
+    
+  }
+  
+  #menu-h li a:hover {
+    background-color: rgba(255, 255, 255, 0.748);
+    padding: 5px;
+  }
+  
+  li i {
+    color: #ffffff;
+    font-size: 13px;
+  }
+  
+  #Horas {
+    position: absolute;
+    top: 460px;
+    left: 240px;
+    color: transparent;
+    font-size: 20px;
+  }
+  
+  #Pc {
+    position: absolute;
+    top: 65px;
+    left: 10px;
+    color: transparent;
+    font-size: 40px;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+  body {
+    margin: auto;
+    width: 90%;
+    background-image: url(./IMG/Landscapeillustration10_generated.jpg);
+  }
+
+  h1 {
+    margin: auto;
+    width: 90%;
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    text-align: center;
+    padding-top: 150px;
+    left: 60px;
+    transition: 1s ease-in-out;
+    color: #ffffff;
+  }
+  
+  h2 {
+    margin: auto;
+    width: 90%;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 4,5px;
+    position: absolute;
+    text-align: center;
+    padding-top: 220px;
+    left: 60px;
+    transition: 2s ease-in-out;
+  }
+  
+  h3 {
+    margin: auto;
+    width: 90%;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    text-align: center;
+    padding-top: 260px;
+    left: 57px;
+    transition: 1s ease-in-out;
+  }
+  .social-media {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    position: absolute;
+    left: 50px;
+    padding-top: 320px;
+  }
+  
+  .social-media a {
+    margin: auto;
+    width: 90%;
+    text-decoration: none;
+    color: #1e1e2a;
+    padding: 1rem 4rem;
+    border: 1px solid #1e1e2a;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+  }
+  
+  a:hover {
+    background-color: #ffffff;
+    opacity: 0.7;
+  }
+  
+  #menu-h {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #000;
+  }
+  
+  #menu-h li {
+    display: inline;
+  }
+  
+  #menu-h li a {
+    color: #ffffff;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.3s;
+    
+  }
+  
+  #menu-h li a:hover {
+    background-color: rgba(255, 255, 255, 0.748);
+    padding: 5px;
+  }
+  
+  li i {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  #Horas {
+    position: absolute;
+    top: 40px;
+    left: 600px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  #Pc {
+    position: absolute;
+    top: 65px;
+    left: 10px;
+    color: transparent;
+    font-size: 40px;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (min-width: 1024px){
+  body {
+    margin: auto;
+    width: 90%;
+    background-image: url(./IMG/Landscapeillustration10_generated.jpg);
+  }
+
+  h1 {
+    margin: auto;
+    width: 90%;
+    font-size: 35px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    text-align: center;
+    padding-top: 150px;
+    left: 50px;
+    transition: 1s ease-in-out;
+    color: #ffffff;
+  }
+  
+  h2 {
+    margin: auto;
+    width: 100%;
+    font-size: 23px;
+    text-transform: uppercase;
+    letter-spacing: 4,5px;
+    position: absolute;
+    text-align: center;
+    padding-top: 200px;
+    left: 12px;
+    transition: 2s ease-in-out;
+  }
+  
+  h3 {
+    margin: auto;
+    width: 80%;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    text-align: center;
+    padding-top: 260px;
+    left: 100px;
+    transition: 1s ease-in-out;
+  }
+  .social-media {
+    margin: auto;
+    width: 90%;
+    margin-top: 1px;
+    display: flex;
+    position: absolute;
+    left: 50px;
+    padding-top: 320px;
+  }
+  
+  .social-media a {
+    margin: auto;
+    width: 90%;
+    text-decoration: none;
+    color: #1e1e2a;
+    padding: 1rem 4rem;
+    border: 1px solid #1e1e2a;
+    min-width: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+  }
+  
+  a:hover {
+    background-color: #ffffff;
+    opacity: 0.7;
+  }
+  
+  #menu-h {
+    list-style-type: none;
+    padding: 10px;
+    background-color: #000;
+  }
+  
+  #menu-h li {
+    display: inline;
+  }
+  
+  #menu-h li a {
+    color: #ffffff;
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background 0.3s;
+    
+  }
+  
+  #menu-h li a:hover {
+    background-color: rgba(255, 255, 255, 0.748);
+    padding: 5px;
+  }
+  
+  li i {
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  #Horas {
+    margin: auto;
+    position: absolute;
+    top: 40px;
+    left: 950px;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  
+  #Pc {
+    position: absolute;
+    top: 30px;
+    left: 900px;
+    color: #ffffff;
+    font-size: 40px;
+  }
+  
+  .container {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+

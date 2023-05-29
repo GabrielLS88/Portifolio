@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Lopes Souza</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="Projeto.css">
+</head>
+<div id="Horas">
+    <head>
+        <script type="text/javascript">
+        function startTime()
+        {
+        var today=new Date();
+        var h=today.getHours();
+        var m=today.getMinutes();
+        var s=today.getSeconds();
+        // adicione um zero na frente de números<10
+        m=checkTime(m);
+        s=checkTime(s);
+        document.getElementById('txt').innerHTML=h+":"+m+":"+s;
+        t=setTimeout('startTime()',500);
+        }
+        function checkTime(i)
+        {
+        if (i<10)
+        {
+        i="0" + i;
+        }
+        return i;
+        }
+        </script>
+        </head>
+        <body onload="startTime()">
+            <div id="txt"></div>
+            </body>
+</div>
+<body>
+    <i class="bi bi-pc-display" id="Pc"></i>
+    <div id="IMG1">
+        <div class="Quadrado" id="Primeiro"></div>
+    </div>
+    <div id="IMG2">
+        <div class="Quadrado" id="Segundo"></div>
+    </div>
+    <div>
+        <div class="Quadrado" id="Terceiro"></div>
+    </div>
+    <ul id="menu-h">
+    <ul id="menu-h">
+        <li>
+            <i class="bi bi-house-door"></i>
+            <a href="index.html">Inicio</a>
+        </li>
+        <li>
+            <i class="bi bi-columns-gap"></i>
+            <a href="Sobre.html">Sobre</a>
+        </li>
+    </ul>  
+    <div>
+        <h1>Projetos</h1>
+        <h2>Em Breve</h2>
+        <h3>Em Breve</h3>
+        <h4>Em Breve</h4>
+    </div> 
+</body>
+</html>

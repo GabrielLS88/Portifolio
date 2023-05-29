@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family= IBM+Plex+Sans:wght@300 & display =swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: #1e1e2a;
+    background-image: url(./IMG/Landscapeillustration10_generated.jpg);
+}
+
+h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    position: absolute;
+    text-align: center;
+    padding-top: 100px;
+    left: 520px;
+    transition: 1s ease-in-out;
+    color: #ffffff;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: absolute;
+    text-align: center;
+    padding-top: 200px;
+    left: 525px;
+    transition: 1s ease-in-out;
+}
+
+h3 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: absolute;
+    text-align: center;
+    padding-top: 197px;
+    left: 730px;
+    transition: 1s ease-in-out;
+}
+
+h4 {
+    font-size: 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: absolute;
+    text-align: center;
+    padding-top: 190px;
+    left: 920px;
+    transition: 1s ease-in-out;
+}
+
+#menu-h{
+    list-style-type: none;
+    padding: 10px;
+    background-color: #000;;
+}
+
+#menu-h li {
+    display: inline;
+}
+
+#menu-h li a{
+    color: #ffffff;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .3s;
+}
+
+#menu-h li a:hover{
+    background-color:  rgba(255, 255, 255, 0.748);
+}
+
+
+li i {
+    color: #ffffff;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#IMG1 {
+    position: absolute;
+    padding-top: 350px;
+    left: 495px;
+    transition: 1s ease-in-out;
+}
+
+#IMG2{
+        position: absolute;
+        padding-top: 350px;
+        left: 689px;
+        transition: 1s ease-in-out;
+}
+
+#IMG3{
+    position: absolute;
+    padding-top: 350px;
+    left: 888px;
+    transition: 1s ease-in-out;
+}
+
+#Horas {
+    position: absolute;
+    top: 42px;
+    left: 1425px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#Pc {
+    position: absolute;
+    top: 30px;
+    left: 1365px;
+    color: #ffffff;
+    font-size: 40px;
+}
