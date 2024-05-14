@@ -158,3 +158,49 @@
     height: 5rem;
     background-color: black;
 }
+
+@media (max-width: 800px) {
+    .textoApresentacao{
+        margin: 2rem 0rem;
+    }
+
+    .blocoApresentacaoImg img{
+        width: 50%;
+    }
+
+    .blocoApresentacaoImg img:hover{
+        width: 55%;
+    }
+
+    .blocoApresentacaoImg{
+        justify-content:center;
+    }
+
+    .textoApresentacao h1{
+        font-size: 2rem;
+        font-weight: bold;
+        color: orange;
+        text-align: center;
+    }
+
+    .textoApresentacao p{
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
+    .bodyProjetos{
+        margin-top: 0rem;
+        padding: 2rem;
+    }
+
+    .bodyContato{
+        margin: 2rem 0rem;
+        flex-direction: column;
+    }
+
+    .blocoContato{
+        padding: 1rem;
+    }
+
+}
