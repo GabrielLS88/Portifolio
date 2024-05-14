@@ -29,6 +29,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: 9;
 }
 
 .bodyLinks a{
@@ -40,7 +41,7 @@
 
 .bodyLinks a:hover{
     font-size: 1.4rem;
-    color: orange;
+    color: #FF6B00;
 }
 
 .bodyApresentacao{
@@ -61,11 +62,12 @@
 .textoApresentacao h1{
     font-size: 2rem;
     font-weight: bold;
-    color: orange;
+    color: #FF6B00;
 }
 .textoApresentacao p{
     font-size: 1.2rem;
     margin-top: 1rem;
+    font-weight: 300;
 }
 
 .blocoApresentacaoImg{
@@ -120,8 +122,15 @@
 
 .bi-exclamation-diamond-fill{
     font-size: 2rem;
-    color: orange;
+    color: #FF6B00;
     margin: 0rem 0.5rem;
+}
+
+.informacaoParaContato{
+    width: 100%;
+    height: auto;
+    padding: 0rem 1rem;
+    text-align: center;
 }
 
 .bodyContato{
@@ -143,14 +152,45 @@
     text-align: center;
 }
 
+.divBlocoInconsContato{
+    width: auto;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
 #tituloEmail{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.bi-envelope-arrow-up-fill{
     color: red;
+    font-size: 1.5rem;
+    margin-left: 0.4rem;
 }
 
 #tituloWhatsApp{
-    font-size: 1.3rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.bi-whatsapp{
+    font-size: 1.5rem;
     color: green;
+    margin-left: 0.4rem;
+}
+
+#tituloLinkedin{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.bi-linkedin{
+    font-size: 1.5rem;
+    color:  blue;
+    margin-left: 0.4rem;
 }
 
 .bodyFooter{
