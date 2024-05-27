@@ -57,7 +57,7 @@
     width: 90%;
     height: auto;
     text-align: start;
-    margin: 5rem 0rem;
+    margin: 4rem 0rem;
 }
 .textoApresentacao h1{
     font-size: 2rem;
@@ -84,6 +84,10 @@
     border-radius: 0.2rem;
     margin-top: 2rem;
     transition: 0.3s ease-in-out;
+}
+
+.blocoApresentacaoImg iframe{
+    border: 0;
 }
 
 .blocoApresentacaoImg img:hover{
@@ -205,7 +209,8 @@
     }
 
     .blocoApresentacaoImg img{
-        width: 50%;
+        width: 40%;
+        margin: 1rem 0rem;
     }
 
     .blocoApresentacaoImg img:hover{
