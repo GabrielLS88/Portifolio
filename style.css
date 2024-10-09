@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background: #1f242d;
+    color: white;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
+    cursor: default;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+}
+
+.navbar a{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    opacity: 0;
+    animation: slideTopNavBar .5s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+}
+
+.navbar a:hover,
+.navbar a.active{
+    color: #ffc003;
+}
+
+.home{
+    position:relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0;
+}
+
+.home_content{
+    max-width: 600px;
+}
+
+.home_content h3{
+    font-size: 32px;
+    font-weight: 700;
+    opacity: 0;
+    animation: slideBottom 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.home_content h3 span{
+    color: #ffc003;
+}
+
+.home_content h3:nth-of-type(2){
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: .7s;
+}
+
+.home_content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0px;
+    opacity: 0;
+    animation: slideRight 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.home_content p{
+    font-size: 18px;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.social_media a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #ffc003;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #ffc003;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+    opacity: 0;
+    animation: slideLeft 1s ease forwards;
+    animation-delay: calc(.2s * var(--i));
+    transition: 0.3s ease-in-out;
+}
+
+.social_media a:hover{
+    background: #ffc003;
+    color: #1f242d;
+    box-shadow: 0px 0px 20px #ffc003;
+}
+
+
+.home_img img{
+    max-width: 450px;
+    opacity: 0;
+    animation: ZoomIn 1s ease forwards;
+    animation-delay: 1s;
+}
+
+.btn_dowload{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #ffc003;
+    border-radius: 40px;
+    box-shadow: 0 0 10px #ffc003;
+    color: #1f242d;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    opacity: 0;
+    animation: slideTop 1s ease forwards;
+    animation-delay: 1.5s;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+    border: 0;
+}
+
+.btn_dowload:hover{
+    box-shadow: 0px 0px 20px #ffc003;
+}
+
+/* KEYFRAMES ANIMATION */
+@keyframes slideRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+          opacity: 1;
+          transform: translateX(0);
+    }
+}
+
+@keyframes slideTop{
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+          opacity: 1;
+          transform: translateY(0);
+    } 
+}
+
+@keyframes slideTopNavBar{
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+          opacity: 1;
+          transform: translateY(0);
+    } 
+}
+
+@keyframes slideBottom{
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+          opacity: 1;
+          transform: translateY(0);
+    } 
+}
+
+@keyframes slideLeft{
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+          opacity: 1;
+          transform: translateX(0);
+    } 
+}
+
+@keyframes ZoomIn{
+    0% {
+        opacity: 0;
+        transform: scale(0);
+    }
+    100% {
+          opacity: 1;
+          transform: scale(1);
+    } 
+}
+
+@media (max-width: 750px) {
+    .home_img{
+        display: none;
+    }
+
+    .home{
+        padding: 0px 10%;
+        text-align: center;
+    }
+
+    .home_content h1{
+        font-size: 40px;
+    }
+}

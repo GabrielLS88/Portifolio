@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gabriel Lopes</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portifolio</a>
+
+        <nav class="navbar">
+            <a href="#" style="--i:1" class="active">Home</a>
+            <a href="Portifolio/Contato.html" style="--i:2">Contato</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home_content">
+            <h3>Olá, me chamo</h3>
+            <h1>Gabriel Lopes</h1>
+            <h3>e sou um <span class="varios_textos" id="varios_textos"></span></h3>
+            <p>Programador com 2 anos de experiência, especializado na criação de chatbots e desenvolvimento web. Além de atuar em projetos que envolvem tecnologias inovadoras, aproveito meu tempo livre jogando e saindo para socializar.</p>
+            <div class="social_media">
+                <a href="https://www.facebook.com/profile.php?id=100088347156248" style="--i:3"><i class='bx bxl-facebook'></i></a>
+                <a href="https://www.linkedin.com/in/gabriel-lopes-souza-968b111a5/" style="--i:4"><i class='bx bxl-linkedin'></i></a>
+                <a href="https://www.instagram.com/lopss_88/" style="--i:5"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="https://github.com/GabrielLS88" style="--i:6"><i class='bx bxl-github'></i></a>
+            </div>
+            <button class="btn_dowload">Download CV</button>
+        </div>
+        <div class="home_img">
+            <img src="./Assets/Logo.png">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        document.querySelector('.btn_dowload').addEventListener('click', function(){
+            const link = document.createElement('a');
+            link.href = './Assets/Gabriel Lopes Souza.pdf';
+            link.download = 'Gabriel Lopes Souza.pdf';
+            link.click();
+        })
+
+        var typed = new Typed('#varios_textos', {
+            strings: ["Front-End Developer", "Back-End Developer","Software Engineer"],
+            typeSpeed: 100,
+            backSpeed: 100,
+            backDelay: 2000,
+            loop: true
+        });
+    </script>
+</body>
+
+</html>
